@@ -1,0 +1,261 @@
+.coin-details-data div{
+  background-color: #181837;
+  color:#fff;
+  font-size:2rem;
+  margin-top:1em;
+  font-weight:bolder;
+  margin-bottom:0.3em;
+}
+.coin-details-data p{
+  background-color: #181837;
+  color:#C0C0EE;
+  padding-bottom:1em;
+}
+.coin-details-img{
+  background-color: #181837;
+}
+.coin-details-data{
+  text-align: center;
+  background-color:#181837;
+  margin-left:auto;
+  margin-right:3rem;
+}
+#coin-details-title{
+  color:white;
+  font-size:1.5em;
+  font-weight:bolder;
+  margin: 1em 0;
+}
+.coin-details{
+  white-space-collapse: collapse;
+  width:100%;
+  margin:22px 40px;
+  min-width:400px;
+}
+.buy-receive-button{
+  padding:0.5em;
+  margin-top:0.3em;
+  color:#fff;
+  font-size:0.9em;
+  border-radius:5px;
+  border: 1px #2477FF solid;
+  text-decoration:none;
+  font-weight: bolder;
+}
+#buy:hover{
+  background-color: #2477FF;
+}
+#receive:hover{
+  background-color: #2477FF;
+}
+.holdings-data div{
+  background-color: #181837;
+  color:#fff;
+  font-size:2rem;
+  margin-top:1em;
+  font-weight:bolder;
+  margin-bottom:0.3em;
+
+}
+.holdings-data p{
+  background-color: #181837;
+  color:#C0C0EE;
+  padding-right:2em;
+  margin:0 0;
+}
+.holdings-data a{
+  background-color: #181837;
+
+}
+.holdings-data{
+  background-color: #181837;
+  border-top-right-radius:15px;
+  border-bottom-right-radius:15px;
+}
+.holdings-img{
+  background-color: #181837;
+  border-bottom-left-radius:15px;
+  border-top-left-radius:15px;
+  width:20%;
+  padding: 1em 1em;
+}
+.holdings-div{
+
+  border-radius:15px;
+  display:flex;
+  width:50%;
+  margin:0 0.5em;
+}
+.holdings{
+  display:flex;
+  white-space-collapse: collapse;
+  width:100%;
+  margin:22px 40px;
+  min-width:400px;
+}
+#overview{
+  border-bottom:2px solid white;
+}
+.directing-link{
+  padding-bottom:0.8rem;
+  text-decoration:none;
+  color:white;
+  letter-spacing: 0.05rem;
+  font-size:1.2rem;
+  font-weight:600;
+  margin-right:1.2rem;
+}
+.directing-div{
+  object-position: fixed;
+  display:flex;
+  margin-right:0;
+  padding:0 0 0 2.5rem;
+  min-width:400px;
+  border-bottom:1px solid #181837;
+}
+
+#wallet-icon{
+  height:1.2rem;
+  padding-right:5px;
+  background-color:#181837;
+}
+#wallet-icon:hover{
+  background-color:#181837;
+
+}
+.icons{
+  height:1.5em;
+  padding:0.5em;
+  margin-right:auto;
+  margin-left:1em;
+  background-color:#181837;
+  border-radius:5px;
+  transition: filter 0.1s;
+  
+}
+.icons:hover{
+  filter: invert(1);
+  filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5));
+}
+.navbar-icons{
+  display:flex;
+  white-space:nowrap;
+  
+}
+.wallet-balance-details{
+  font-size:1.2rem;
+  color:#74749B;
+  margin-right:auto;
+  background-color:#181837;
+}
+.wallet-balance-details:hover{
+  color:#EEEEEE;
+}
+.wallet-balance{
+  padding:0.5em;
+  display:flex;
+  border-radius: 5px;
+  background-color:#181837;
+  height:100%;
+  margin-right:1.5em;
+  
+  white-space: nowrap;
+  
+}
+.wallet-balance:hover{
+  border:1px solid white;
+  filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5));
+}
+#nav-empty{
+  display:flex;
+  
+  width:60%;
+}
+.portfolio-title{
+  /* margin:60%; */
+  color:#fff;
+  font-size:1.5rem;
+  font-weight:600;
+
+}
+.navbar{
+  max-width:100%;
+  object-position: fixed;
+  display:flex;
+  padding:22px 40px;
+  min-width:400px;
+}
+.ribbon-directing-button img{
+  width:20%;
+  padding-right:0.8rem;
+}
+.ribbon-directing-button{
+  margin-bottom:0.5em;
+  display:flex;
+  padding:0.6rem;
+  border-radius:10px;
+  text-decoration:none;
+}
+.ribbon-directing-button:hover{
+  border:1px solid white;
+}
+.ribbon-directing-button p{
+  margin:0;
+  padding:0.3rem 0 0 0 ;
+  box-sizing:border-box;
+  word-wrap:break-word;
+  color:white; 
+  font-size:0.9rem;
+  font-weight:500; 
+}
+
+
+.ribbon-sub-section .ribbon-sub-title{
+  background-color: #181837;
+  color:#C0C0EE;
+  padding-bottom:0.5rem;
+  font-size:0.8rem;
+}
+.ribbon-sub-section .ribbon-sub-title:hover{
+  color:white;
+}
+
+.ribbon-sub-section{
+  padding-top:1.5rem;
+  padding-bottom:1rem;
+  background-color: #181837;
+  border-bottom:1.5px #222245 solid;
+  min-width:128px;
+}
+.logo-container{
+  background-color: #181837;
+  padding-bottom:1rem;
+  border-bottom:1.5px #222245 solid;
+}
+
+.logo-container img{
+  width:8rem;
+  display:flex;
+  margin:0 auto;
+  background-color: #181837;
+}
+
+.ribbon{
+  width:12.5%;
+  background-color: #181837;
+  padding:1.5em;
+}
+.full-page{
+  display:flex;
+}
+html{
+  margin-right: 0;
+}
+*{
+
+  background-color: #222245;
+  font-family: 'Roboto', sans-serif;
+  font-size:16px;
+}
+
+
