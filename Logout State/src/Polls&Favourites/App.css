@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600&display=swap');
+
+.full-container{
+  scroll-behavior: smooth;
+  height: 100%;
+  margin:0;
+  padding:0;
+  font-family:"poppins",sans-serif;
+  background-color: #F8FAFC;
+  min-width:1430px;
+}
+.sorting-container{
+  min-width: 900px;
+  vertical-align:middle;
+  display:flex;
+  max-width:85%;
+  background-color:#E2E8F0;
+  max-height:1000px;
+  margin: 2rem 6rem 0.5rem 6rem;
+  padding:1rem 1rem;
+  box-shadow: 2px 2px 5px 2px #94A3B8;
+  align-items: center;
+  justify-content: center;
+  border-radius:5px;
+  letter-spacing: 0.6px;
+}
+
+.crypto-container{
+  min-width: 900px;
+  vertical-align:middle;
+  display:flex;
+  max-width:85%;
+  background-color:#E2E8F0;
+  max-height:1000px;
+  margin: 2rem 6rem;
+  padding:2rem 2rem;
+  box-shadow: 2px 2px 5px 2px #94A3B8;
+  align-items: center;
+  justify-content: center;
+  border-radius:5px;
+  letter-spacing: 0.6px;
+  }
+.crypto-table{
+  min-width:700px;
+  max-width:80%;
+  box-shadow: 1px 1px 2px #94A3B8;
+  border: 0.01px solid #94A3B8;
+  border-radius:5px;
+  border-collapse: collapse;
+  text-align: right;
+}
+.crypto-table tr{
+
+  box-shadow: 1px 0px 1px #94A3B8
+}
+.crypto-table tbody tr:nth-child(odd){
+  background-color:   #CBD5E1;
+}
+.crypto-table tbody tr:nth-child(even){
+  background-color:   #E2E8F0;
+}
+.crypto-table .table-head{
+  font-size:0.8rem;
+  font-weight:600;
+  color: #1E1B4B;
+  padding-left:0.9rem;
+}
+#supply {
+  padding-right:0.9rem;
+}
+.supply-data {
+  padding-right:0.9rem;
+}
+tbody td{
+  padding-left:0.5rem;
+  font-size:0.9rem;
+  align-items: center;
+}
+.name-block{
+  display:flex;
+  vertical-align: middle;
+}
+#name{
+  padding-right:2rem;
+}
+#curr-name {
+  display:flex;
+  width:12rem;
+  align-items: center;
+}
+.crypto-image{
+  max-height:3rem;
+  padding: 1rem 0.5rem;
+}
+.symbol{
+  color:#64748B;
+}
+
+#percentage-change-24{
+  min-width:4rem;
+}
+#vol-change-24{
+  min-width:12rem;
+}
+#supply{
+  min-width:12rem;
+}
+
+#sort-select{
+  background-color:#F8FAFC;
+  font-size:0.8rem;
+  text-align: center;
+  font-family: 'poppins',sans-serif;
+  min-width:8rem;
+  max-width:9rem;
+  padding:0.2rem 0;
+  border-radius:5px;
+}
+
+th #favorite{
+  margin-right:1rem;
+}
+.chart-container{
+  height:400px;
+  width:60%;
+  margin: 0 auto;
+  padding-bottom:1rem;
+}
+
+/* App.css */
+.heart-button {
+  height:2rem;
+  width:2rem;
+  padding:none;
+  border:none;
+  box-shadow: 0.1px 0.1px 0.8px black;
+  background-color: #F1F5F9;
+  color:#FDA4AF;
+  transition: color 0.5s;
+}
+
+.heart-button.clicked {
+  color: #4C0519;
+  animation: resetColor 4s forwards;
+}
+
+@keyframes resetColor {
+  0% {
+    color: #4C0519;
+  }
+  
+  100%{
+    color:#FDA4AF;
+  }
+}
