@@ -1,0 +1,77 @@
+.addUser {
+  background-color: white;
+  width: 50%;
+  margin: 0px;
+  
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.065);
+      
+  
+
+  
+
+
+}
+.addUserForm .inputGroup {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.addUserForm .inputGroup label {
+  margin-top: 10px;
+}
+
+.addUserForm .inputGroup input {
+  margin-top: 5px;
+  padding: 10px;
+}
+
+.inputGroup button {
+  margin-top: 10px;
+}
+.login {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.login .btn.btn-primary {
+  width: 50%;
+}
+
+.addUser h3 {
+  text-align: center;
+  /* font-weight: bold; */
+  color: darkcyan;
+  text-transform: uppercase;
+  
+}
+/* .name
+{
+    display: inline-block;
+} */
+input{
+    background-color: rgb(236, 233, 233);
+    border: 0px solid blue;
+    border-radius: 10px;
+    
+
+}
+input:focus {
+    outline-color: skyblue;
+    
+    
+}
+img{
+    height: 500px;
+    width: 841px;
+    margin-top: 190px;
+}
+.main{
+    display: flex;
+}
+.btn {
+  background-color: blue;
+}
+
