@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, #d4e4ec 0%, #a4d5f1 100%);
+}
+
+.container {
+  margin: auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 3rem;
+  color: rgb(42, 22, 62);
+}
+.h1_div {
+  padding: 1rem 2rem;
+  width: fit-content;
+  border-radius: 2rem;
+  background-color: #a4d5f1;
+  border: 1px;
+  border-color: #111827;
+}
+.h1_div:hover {
+  background-color: #82c8f0;
+  border: 1px;
+  border-color: #111827;
+}
+.card {
+  max-width: 300px;
+  border-radius: 0.5rem;
+  background: radial-gradient(
+    circle at 18.7% 37.8%,
+    rgb(250, 250, 250) 0%,
+    rgb(225, 234, 238) 90%
+  );
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  border: 1px solid transparent;
+  margin: 16px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card:hover {
+  border-color: rgb(169, 168, 168);
+}
+
+.card a {
+  text-decoration: none;
+}
+
+.content {
+  flex: 1; /* Make the content take up remaining space */
+  padding: 1.1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.image {
+  border: 1px solid transparent;
+  border-radius: 10px;
+  width: calc(100% - 20px); /* Subtracting margin from width */
+  height: 150px;
+  overflow: hidden;
+  margin: 10px; /* Margin from all sides */
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.title {
+  color: #111827;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+}
+
+.desc {
+  margin-top: 0.5rem;
+  color: #3b3e74;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.action {
+  display: inline-flex;
+  align-self: flex-start; /* Align the button to the start of the flex container */
+  color: #ffffff;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+  align-items: center;
+  gap: 0.25rem;
+  background-color: #2563eb;
+  padding: 4px 8px;
+  border-radius: 4px;
+  margin-top: 1rem; /* Ensure there is some spacing */
+}
+
+.action span {
+  transition: 0.3s ease;
+}
+
+.action:hover span {
+  transform: translateX(4px);
+}
