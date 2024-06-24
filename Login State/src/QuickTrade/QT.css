@@ -1,0 +1,202 @@
+/* Add these styles to App.css */
+
+/* General styling for the sorting container */
+*{
+    color: white;
+}
+.sorting-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Label styling */
+.sorting-container label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+/* Stylish select dropdown */
+#sort-select {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 25px;
+  /* background: linear-gradient(145deg, #f0f0f0, #cacaca);
+   */
+   background-color: #28284d;
+  /* box-shadow: 5px 5px 10px #bababa, -5px -5px 10px #ffffff; */
+  font-size: 16px;
+  transition: all 0.3s ease;
+  outline: none;
+}
+
+/* Styling for the options in the select dropdown */
+#sort-select option {
+  /* background: #fff;
+   */
+   background-color: #181837;
+  color: #333;
+}
+
+/* Add hover effect */
+#sort-select:hover {
+  /* background: linear-gradient(145deg, #cacaca, #f0f0f0); */
+  /* box-shadow: 5px 5px 10px #ababab, -5px -5px 10px #ffffff; */
+  color: black;
+  background-color: aliceblue;
+}
+
+/* Add focus effect */
+#sort-select:focus {
+  border: none;
+  outline: none;
+  background: linear-gradient(145deg, #d0d0d0, #e0e0e0);
+  box-shadow: inset 5px 5px 10px #bababa, inset -5px -5px 10px #ffffff;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600&display=swap');
+
+.full-container{
+  scroll-behavior: smooth;
+  height: 100%;
+  /* margin:0; */
+  margin:0;
+  padding:1rem;
+  font-family:"poppins",sans-serif;
+  /* background: linear-gradient(#ffffff, #87b1e8);
+   */
+   background-color:#2d2d54;
+   
+
+}
+
+.crypto-container{
+  min-width:900px;
+  vertical-align:middle;
+  display:flex;
+  max-width:80%;
+  background-color:#2d2d54;
+  max-height:1000px;
+  margin: 2rem 6rem;
+  padding:2rem 2rem;
+  /* box-shadow: 2px 2px 5px 2px #94A3B8; */
+  align-items: center;
+  justify-content: center;
+  border-radius:5px;
+  letter-spacing: 0.6px;
+  }
+.crypto-table{
+
+  max-width:90%;
+  /* box-shadow: 1px 1px 2px #0b0b0b; */
+  /* border: 0.01px solid #94A3B8; */
+  border-radius:5px;
+  border-collapse: collapse;
+  text-align: right;
+  color: aliceblue;
+  width: 200px;
+}
+/* .crypto-table tr{
+
+  box-shadow: 1px 0px 1px #060606
+} */
+.crypto-table tbody tr:nth-child(odd){
+  background-color:   #CBD5E1;
+}
+.crypto-table tbody tr:nth-child(even){
+  background-color:   #E2E8F0;
+}
+.crypto-table .table-head{
+  font: size 35px;;
+  font-weight:200;
+  color: rgb(149, 147, 147);
+  padding-left: 25px;
+}
+#supply {
+  padding-right:0.9rem;
+}
+.supply-data {
+  padding-right:0.9rem;
+}
+tbody td{
+  padding-left:50px;
+  font-size:0.9rem;
+  align-items: center;
+}
+.name-block{
+  display:flex;
+  vertical-align: middle;
+}
+#name{
+  padding-right:2rem;
+}
+#curr-name {
+  display:flex;
+  width:12rem;
+  align-items: center;
+}
+.crypto-image{
+  max-height:3rem;
+  padding: 1rem 0.5rem;
+}
+.symbol{
+  color:#64748B;
+}
+.options{
+  border-radius: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: flex;
+  
+
+}
+.options:hover{
+  box-shadow: 0px 0px 6px 0px black;;
+}
+#trade{
+  background-color: green;
+  margin-right: 10px;
+  border: 1px solid green;
+}
+#sell{
+  background-color: red;
+  border: 1px solid red;
+}
+.trade-sell{
+  display: flex;
+}
+.lastData{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.usd-inr{
+  margin-left: 94px;
+  margin-right: 157px;
+  padding: 10px;
+}
+.prices{
+  padding-right: 377px;
+  padding-left: 210px;
+  margin-right: 7px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: white;
+  font-size: 15px;
+  border-radius: 5px;
+  
+
+}
+button:focus{
+  background-color: rgb(54, 90, 218);
+  border: 1px solid rgb(54, 90, 218);
+
+}
+/* .usd{
+  border: 1px solid rgb(54, 90, 218);
+  
+} */
+
