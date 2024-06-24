@@ -1,0 +1,121 @@
+/* CardSlider.css */
+/* .main
+{
+  background: linear-gradient(white, #6072c7);
+} */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,700;1,800;1,900&display=swap');
+.main
+{
+  background: linear-gradient(#87b1e8, #ffffff)
+  /* background-color: #383041; */
+}
+.card-slider {
+  width: 80%;
+  margin: auto;
+  padding: 40px 0;
+  
+}
+
+.card {
+  background: aliceblue;
+  border-radius: 20px;
+  box-shadow: 0px 2px 4px 2px rgba(0,0,0,0.1);
+  padding: 20px;
+  text-align: left;
+  padding:0px;
+  
+  
+}
+
+.card-content {
+  display: flex;
+  align-items: center;
+}
+
+.card-image {
+  width: 150px;
+  height: auto;
+  margin-right: 20px;
+  border-radius: 4px;
+}
+
+.card-text {
+  flex: 1;
+  margin-left: 50px;
+}
+
+.card-title {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+.card-description {
+  font-size: 1em;
+  color: #666;
+  margin: 10px 0;
+}
+
+.card-button {
+  padding: 5px 10px;
+  background-color: #8c949b;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-transform: uppercase;
+  display: flex;
+  margin-bottom: 20px;
+
+}
+
+.card-button:hover {
+  background-color: #0056b3;
+}
+.link{
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.card-input
+{
+    display: flex;
+}
+.card-input input
+{
+    background-color: rgb(247, 243, 243);
+     border: 0px solid blue;
+    border-radius: 2px;
+    margin-right: 5px;
+    padding: 10px;
+
+}
+input:focus {
+    outline-color: skyblue;
+
+
+}
+.card-input button
+{
+    background-color: #0b7ce0;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+    display: flex;
+    margin-bottom: 20px;
+    padding: 10px;  
+}
+.card-title
+{
+  color: #3e3e93;
+    font-weight: 600;
+    font-size: 50px;
+  font-family: 'poppins',sans-serif;
+}
+.card-description
+{
+  font-family: cursive;
+}
+
+
